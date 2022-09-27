@@ -79,7 +79,7 @@ const Advice: Component = () => {
         <div class={styles.adviceId}>ADVICE #{adviceId()}</div>
         <h1>"{advice}"</h1>
       </Show>
-      {mobileDivider}
+      {desktopDivider}
       <button class={styles.button} onClick={newAdvice}>
         {diceIcon}
       </button>
